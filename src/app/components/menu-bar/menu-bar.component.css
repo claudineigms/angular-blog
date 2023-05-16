@@ -1,11 +1,20 @@
+.container__menu-bar{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  flex-direction: row;
+}
 
+.menu-bar__center{
+  display: flex;
+  justify-content: center;
+}
 
-.container__menu-bar > ul{
+.menu-bar__center > ul{
   display: flex;
   flex-direction: row;
 }
 
-.container__menu-bar > ul > li{
+.menu-bar__center > ul > li{
   margin-right: 20px;
   list-style: none;
 }
